@@ -6,7 +6,7 @@ And also moder UI and UX concepts and  [jfoenix](http://www.jfoenix.com/).
 [![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 [![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/9630-a8translate.svg)](https://plugins.jetbrains.com/)
 ## Getting Started
-
+Check out JavaFX
  
 
 
@@ -24,12 +24,18 @@ End with an example of getting some data out of the system or using it for a lit
 
 ### And coding style tests
 
-MCV Design pattern.
-
+Used Design Patterns
+* MVC 
+* Factory
+* Abstract Factory
+* Singleton 
+* Observer
+* Facade 
 
 ## Deployment
-
-Install JDK
+Install JDK 9.0 or higher
+Install Intellij IDEA 
+Install MySQL
 
 ## Built With
 
