@@ -33,11 +33,55 @@ Design Patterns used:
 6. Facade 
 
 ## Prerequisites
-* JDK 9.0 or higher
+### 1. JDK 9.0 or higher
+#### On Ubuntu 16.04/17.10/18.04:
+**Step 1: Add A Third Party PPA to Ubuntu**
+```
+sudo add-apt-repository ppa:webupd8team/java
+```
 
-* Intellij IDEA 
+**Step 2: Download Oracle Java 9**
+```
+sudo apt update
+sudo apt install oracle-java9-installer
+```
+When you run the commands above you’ll be prompted to access the license terms of the software.
 
-* MySQL
+**Step 3: Configure Oracle JDK9 as Default**
+```
+sudo apt install oracle-java9-set-default
+```
+
+**Step 4: check you java version**
+```
+javac -version
+```
+
+### 2. Intellij IDEA 
+#### On Ubuntu 16.04/18.04/18.10/19.04:
+**Step 1: Add A Third Party PPA to Ubuntu(developed and maintained by [Marcel Kapfer](https://gitlab.com/u/mmk2410/projects))**
+```
+sudo add-apt-repository ppa:mmk2410/intellij-idea-community
+```
+
+**Step 2: Download Intellij IDEA**
+```
+sudo apt update
+sudo apt install intellij-idea-community
+```
+
+**To remove IntelliJ installed from the above PPA**
+```
+sudo apt remove intellij-idea-community 
+sudo add-apt-repository --remove ppa:mmk2410/intellij-idea-community
+```
+
+### 3. MySQL
+#### On Ubuntu 18.04
+```
+sudo apt install mysql-server
+```
+
 
 ## Built With
 
@@ -48,11 +92,11 @@ Design Patterns used:
 
 * **Chamod Shehanka** - *Developer* - [Shehanka](https://github.com/Shehanka)
 
-See also the list of [contributors](https://github.com/Shehanka/RentLio/graphs/contributors) who participated in this project.
+See the [list of contributors](https://github.com/Shehanka/RentLio/graphs/contributors) who participated in this project.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository] 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/sliit-foss/RentLio) 
 
 ## Authors
 
