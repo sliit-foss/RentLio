@@ -1,4 +1,4 @@
-![Logo](https://github.com/Shehanka/RentLio/blob/master/RentLioClient/src/com/chamodshehanka/rentLioClient/view/images/rentlio-background.jpg)
+![Logo](https://github.com/sliit-foss/RentLio/blob/master/RentLioClient/src/com/chamodshehanka/rentLioClient/view/images/rentlio-background.jpg)
 # RentLio
 This is a vehicle reservation system. Which is made with JavaFX and also using hibernate and RMI. \
 And also moder UI and UX concepts and  [jfoenix](http://www.jfoenix.com/).
@@ -24,18 +24,20 @@ End with an example of getting some data out of the system or using it for a lit
 
 ### And coding style tests
 
-Used Design Patterns
-* MVC 
-* Factory
-* Abstract Factory
-* Singleton 
-* Observer
-* Facade 
+Design Patterns used:
+1. MVC 
+2. Factory
+3. Abstract Factory
+4. Singleton 
+5. Observer
+6. Facade 
 
-## Deployment
-Install JDK 9.0 or higher
-Install Intellij IDEA 
-Install MySQL
+## Prerequisites
+* JDK 9.0 or higher
+
+* Intellij IDEA 
+
+* MySQL
 
 ## Built With
 
